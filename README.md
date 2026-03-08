@@ -20,3 +20,4 @@ Statistical plots (Figure 2) show the evolution of the explosive probability w
 
 The entire simulation is parallelised over multiple CPU cores and offers a test mode for rapid checks as well as a full production mode for final results.
 
+The workflow described above directly corresponds to the implementation in eta_eta_c_SIS_hotmap.py.  Generated: Fig. 1 in the main text, and Fig. H1 in Appendix H.
