@@ -20,8 +20,8 @@ Statistical plots (Figure 2) show the evolution of the explosive probability w
 
 The entire simulation is parallelised over multiple CPU cores and offers a test mode for rapid checks as well as a full production mode for final results.
 
-The workflow described above directly corresponds to the implementation in eta_eta_c_SIS_hotmap.py.  Generated: Fig. 1 in the main text, and Fig. H1 in Appendix H.
-
+The workflow described above directly corresponds to the implementation in eta_eta_c_SIS_hotmap.py.  Generated: Fig. 1  in the main text, and Fig. H1 in Appendix H.
+Notethat for fixed λ₂/λ₁=2.5, SIS_coupling_effect_heatmap.py generates Fig.H2 (a)  in supplemental material Appendix H. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # η/η_c Phase Diagram for Kuramoto Synchronization on Higher-Order Hypergraphs
 
@@ -56,7 +56,7 @@ The code computes `η/η_c` for each `(T, β)` point, interpolates the results, 
 - `scipy`
 - `networkx`
 - `matplotlib`
-
+The workflow described above directly corresponds to the implementation in Kara_coupling_effect_heatmap.py.  Generated: Fig. H2 (b)  in  supplemental material Appendix H.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # η/η_c Phase Diagram for Evolutionary Game (Public Goods) on Higher-Order Hypergraphs
 
@@ -98,3 +98,4 @@ Install all dependencies with:
 ```bash
 pip install numpy scipy networkx matplotlib
 
+The workflow described above directly corresponds to the implementation in Kara_coupling_effect_heatmap.py.  Generated: Fig. H2 (c)  in  supplemental material Appendix H.
