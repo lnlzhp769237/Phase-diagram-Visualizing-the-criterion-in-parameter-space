@@ -37,7 +37,7 @@ The code computes `η/η_c` for each `(T, β)` point, interpolates the results, 
 
 ## Features
 
-- Implements the Kuramoto synchronization dynamics (Eq. 17) with both pairwise and three‑body couplings.
+- Implements the Kuramoto synchronization dynamics  with both pairwise and three‑body couplings.
 - Dynamically estimates the critical coupling strength `σ₁_c` via a mean‑field approximation.
 - Chooses a subcritical `σ₁ = 0.8·σ₁_c` (configurable) and computes `σ₂ = σ₁·(σ₂/σ₁)`.
 - Finds a low‑synchronization steady state by integrating the ODE system, using an adaptive reduction factor if the order parameter `R` is too high.
@@ -61,10 +61,9 @@ Install all dependencies with:
 
 ```bash
 pip install numpy scipy networkx matplotlib
+#############################################################################################################
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-# η/η_c Phase Diagram for Evolutionary Game (Public Goods) on Higher-Order Hypergraphs
+#η/η_c Phase Diagram for Evolutionary Game (Public Goods) on Higher-Order Hypergraphs
 
 
 This repository contains the Python code to generate the phase diagram (heatmap) of the dimensionless ratio `η/η_c` in the parameter plane of structural overlap `T` and nodal heterogeneity `β` for the **evolutionary game (public goods) model** with pairwise and three‑body interactions on higher-order hypergraphs. The figure corresponds to one panel of **Fig. 1** in the paper:
@@ -78,7 +77,7 @@ The code computes `η/η_c` for each `(T, β)` point, interpolates the results, 
 
 ## Features
 
-- Implements the evolutionary game (public goods) dynamics (Eqs. 18–20) with both pairwise and three‑body interactions.
+- Implements the evolutionary game (public goods) dynamics  with both pairwise and three‑body interactions.
 - Estimates the critical benefit‑to‑cost ratio `r_c` via a mean‑field approximation.
 - Uses two independent control parameters:
   - `r_ratio` : scales the three‑body interaction strength independently of the linear part.
