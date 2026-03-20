@@ -24,8 +24,7 @@ The workflow described above directly corresponds to the implementation in eta_e
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-# η/η_c Phase Diagram for Kuramoto Synchronization on Higher-Order Hypergraphs
+#η/η_c Phase Diagram for Kuramoto Synchronization on Higher-Order Hypergraphs
 
 This repository contains the Python code to generate the phase diagram (heatmap) of the dimensionless ratio `η/η_c` in the parameter plane of structural overlap `T` and nodal heterogeneity `β` for the **Kuramoto model** with pairwise and three‑body interactions on higher-order hypergraphs. The figure corresponds to one panel of **Fig. 1** in the paper:
 
@@ -64,9 +63,7 @@ Install all dependencies with:
 pip install numpy scipy networkx matplotlib
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-# η/η_c Phase Diagram for Evolutionary Game (Public Goods) on Higher-Order Hypergraphs
+#η/η_c Phase Diagram for Evolutionary Game (Public Goods) on Higher-Order Hypergraphs
 
 This repository contains the Python code to generate the phase diagram (heatmap) of the dimensionless ratio `η/η_c` in the parameter plane of structural overlap `T` and nodal heterogeneity `β` for the **evolutionary game (public goods) model** with pairwise and three‑body interactions on higher-order hypergraphs. The figure corresponds to one panel of **Fig. 1** in the paper:
 
