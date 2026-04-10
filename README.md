@@ -78,7 +78,7 @@ The code computes `η/η_c` for each `(T, β)` point, interpolates the results, 
   - `subcritical_factor` : determines how far below `r_c` the linear benefit `r` is set.
 - Finds a low‑cooperation steady state by integrating the ODE system, with automatic reduction of `r` if cooperation is too high.
 - Computes the linear operator `L₀`, its spectral abscissa `ρ₀`, the nonlinear Jacobian `Jₙₗ`, and finally `η = ‖Jₙₗ‖ / (‖L₀‖·|ρ₀|)`.
-- Calculates the theoretical critical value `η_c` from Eq. (11) with the game‑specific constant `C = 2/3`.
+- Calculates the theoretical critical value `η_c` from Eq. (8) with the game‑specific constant `C = 2/3`.
 - Parallel execution over the `(T, β)` grid using `multiprocessing.Pool`.
 - Produces a smooth heatmap with cubic interpolation and a dashed contour at `η/η_c = 1`.
 - Outputs publication‑ready vector graphics (PDF, EPS) with filenames automatically reflecting the chosen parameters.
