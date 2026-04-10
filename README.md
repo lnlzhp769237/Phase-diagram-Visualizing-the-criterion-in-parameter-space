@@ -42,7 +42,7 @@ The code computes `η/η_c` for each `(T, β)` point, interpolates the results, 
 - Chooses a subcritical `σ₁ = 0.8·σ₁_c` (configurable) and computes `σ₂ = σ₁·(σ₂/σ₁)`.
 - Finds a low‑synchronization steady state by integrating the ODE system, using an adaptive reduction factor if the order parameter `R` is too high.
 - Computes the linear operator `L₀`, its spectral abscissa `ρ₀`, the nonlinear Jacobian `Jₙₗ`, and finally `η = ‖Jₙₗ‖ / (‖L₀‖·|ρ₀|)`.
-- Calculates the theoretical critical value `η_c` from Eq. (11) with the Kuramoto‑specific constant `C = ⟨k⟩/⟨k²⟩`.
+- Calculates the theoretical critical value `η_c` from Eq. (8) with the Kuramoto‑specific constant `C = ⟨k⟩/⟨k²⟩`.
 - Parallel execution over the `(T, β)` grid using `multiprocessing.Pool`.
 - Produces a smooth heatmap with cubic interpolation and a dashed contour at `η/η_c = 1`.
 - Outputs publication‑ready vector graphics (PDF, EPS) and a PNG preview.
